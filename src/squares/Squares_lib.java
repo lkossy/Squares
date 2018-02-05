@@ -1,7 +1,7 @@
 package squares;
 
 public class Squares_lib implements Squares_if{
-
+	
 	double x[], y[];
 	double theta[] = new double[2];
 	double eta = 0.1;
@@ -32,6 +32,7 @@ public class Squares_lib implements Squares_if{
 		theta[0] -= eta * object[0];
 		theta[1] -= eta * object[1];
 		return theta;
+
 	}
 
 }
